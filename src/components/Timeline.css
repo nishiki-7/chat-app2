@@ -1,0 +1,47 @@
+.post {
+    display: flex;
+    /* border: 1px solid #000; */
+    padding: 10px;
+}
+
+.post-userName {
+    width: 100px;
+    /* height: 50px; */
+    padding: 5px;
+}
+
+.post-avatar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightcoral;
+    color: #fff;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border-radius: 25px;
+    margin-right: 10px;
+}
+
+.post-message {
+    background-color: lightgrey;
+    width: 500px;
+    height: 50px;
+    padding: 5px 20px;
+    border-radius: 50px;
+}
+
+.post button {
+    margin-left: 10px;
+    border: none;
+    border-radius: 100px;
+    background-color: skyblue;
+    color: #fff;
+    width: 70px;
+    height: 30px;;
+
+}
+
+.post button:hover {
+    cursor: pointer;
+}
